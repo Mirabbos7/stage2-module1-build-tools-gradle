@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "utils",
+    "version": "1.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 1201,
+          "sha512": "ade24322fdc8596474ee80d4aefc7a14912c481fa17af186e2017e2ea26a021af82ba643fff11b1f9e393ea972042ac1eeae2ec4217cab7067e55234e88705e2",
+          "sha256": "311a0f045f105540b719c11f67fa957a96c88259b354a9936520ec6e4878203f",
+          "sha1": "a51ee96843d9dbc41beb2c1e60d45b0582c6e9a2",
+          "md5": "3afdabeb9b1e9dd6b1e04d9fe6cb53e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-1.3.5.jar",
+          "url": "utils-1.3.5.jar",
+          "size": 1201,
+          "sha512": "ade24322fdc8596474ee80d4aefc7a14912c481fa17af186e2017e2ea26a021af82ba643fff11b1f9e393ea972042ac1eeae2ec4217cab7067e55234e88705e2",
+          "sha256": "311a0f045f105540b719c11f67fa957a96c88259b354a9936520ec6e4878203f",
+          "sha1": "a51ee96843d9dbc41beb2c1e60d45b0582c6e9a2",
+          "md5": "3afdabeb9b1e9dd6b1e04d9fe6cb53e7"
+        }
+      ]
+    }
+  ]
+}
